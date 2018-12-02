@@ -1,0 +1,19 @@
+<import src="post-item/post-item-template.wxml" />
+<view>
+  <swiper catchtap="onSwiperTap" indicator-dots="true" autoplay="true" interval="5000">
+    <swiper-item>
+      <image src="//i0.hdslb.com/bfs/archive/8fe1ff7f06fd57346c6d87ada0c0b30f1760ab1a.jpg" data-postId="3"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://i0.hdslb.com/bfs/sycp/creative_img/201811/cedd624a50cafde6127d4fd2587686ec.jpg" data-postId="4"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="//i0.hdslb.com/bfs/archive/407b4c021eef2043c1e447892d9492b21391a9a2.jpg" data-postId="5"></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for="{{postList}}" wx:key="index" wx:for-item="item" wx:for-index="idx">
+    <view catchtap="onPostTap" data-postId="{{item.postId}}">
+      <template is="postItem" data="{{...item}}"/>
+    </view>
+  </block>
+</view>

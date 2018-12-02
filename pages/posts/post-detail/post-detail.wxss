@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-image {
+  width: 750rpx;
+  height: 450rpx;
+}
+
+.audio {
+  width: 102rpx;
+  height: 110rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -51rpx;
+  top: 180rpx;
+  opacity: 0.6;
+}
+
+.author-date {
+  flex-direction: row;
+  margin-left: 30rpx;
+  margin-top: 20px;
+}
+
+.avatar {
+  width: 80rpx;
+  height: 80rpx;
+  vertical-align: middle;
+}
+
+.author {
+  margin-left: 30rpx;
+  font-size: 30rpx;
+  vertical-align: middle;
+}
+
+.const-text {
+  margin-left: 20rpx;
+  font-size: 20rpx;
+  vertical-align: middle;
+}
+
+.date {
+  margin-left: 20rpx;
+  font-size: 20rpx;
+  vertical-align: middle;
+}
+
+.title {
+  margin-top: 20px;
+  margin-left: 30rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+}
+
+.image-circle {
+  float: right;
+  margin-top: 20px;
+}
+
+.image-circle image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.image-circle .share-image {
+  margin-left: 30rpx;
+  margin-right: 10rpx;
+}
+
+.line {
+  width: 660rpx;
+  height: 1px;
+  background-color: #e5e5e5;
+  vertical-align: middle;
+  position: relative;
+  top: 90rpx;
+  margin: 0 auto;
+  z-index: -99;
+}
+
+.detail-content {
+  font-size: 30rpx;
+  margin-left: 30rpx;
+  margin-right: 20rpx;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+  color: #666;
+}

@@ -1,0 +1,24 @@
+@import "post-item/post-item-template.wxss";
+
+swiper {
+  width: 750rpx;
+  height: 600rpx;
+}
+
+swiper image {
+  width: 750rpx;
+  height: 600rpx;
+}
+
+.post-cotainer {
+  flex-direction:column;
+  display:flex;
+  margin-top:20rpx;
+  margin-bottom:40rpx;
+  margin-left: 0rpx;
+  background-color:#fff;
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  padding-bottom: 5px;
+}
+
